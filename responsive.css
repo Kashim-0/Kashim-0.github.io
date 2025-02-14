@@ -1,0 +1,32 @@
+/* Estilo general (para pantallas grandes) */
+body {
+    font-size: 18px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos para tablets (pantallas de hasta 768px) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+/* Estilos para móviles (pantallas de hasta 480px) */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
